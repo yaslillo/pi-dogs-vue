@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    box-sizing: content-box;
+}
+  
+.card:hover {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    box-shadow: 16px 16px 48px 0px  rgba(0,0,0,0.3);
+}
+
+.card:hover a{
+    color: white;
+}
+
+.card img {
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+    height: 80px;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
+.text-centered {
+    text-align: center;
+}

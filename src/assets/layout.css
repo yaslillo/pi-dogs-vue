@@ -1,0 +1,20 @@
+.wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "nav"
+        "content"
+        "footer";
+    margin-bottom: 30px;
+}
+
+.main-nav {
+    grid-area: nav;
+}
+.main-content {
+    grid-area: content;
+}
+.main-footer {
+    grid-area: footer;
+    text-align: center;
+}
